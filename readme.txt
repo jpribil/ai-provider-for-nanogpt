@@ -4,7 +4,7 @@ Tags: ai, nanogpt, image-generation, llm, ai-client
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.7.3
+Stable tag: 0.7.4
 License: GPL-2.0-or-later
 License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
 
@@ -21,6 +21,9 @@ Registers NanoGPT as a provider for the WordPress AI Client. Supports text and i
 3. Add your NanoGPT API key in Settings > Connectors.
 
 == Changelog ==
+
+= 0.7.4 =
+* Show only true text-to-image models in the default image model list; hide editing/upscaling/inpainting/image-to-image models that cannot generate from a prompt alone.
 
 = 0.7.3 =
 * Add Tags and Tested up to headers to the readme for the WordPress.org plugin directory.

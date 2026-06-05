@@ -6,7 +6,7 @@
  * Description: nano-gpt.com AI provider for the WordPress AI Client.
  * Requires at least: 7.0
  * Requires PHP: 7.4
- * Version: 0.7.3
+ * Version: 0.7.4
  * Author: Jiri
  * License: GPL-2.0-or-later
  * License URI: https://spdx.org/licenses/GPL-2.0-or-later.html

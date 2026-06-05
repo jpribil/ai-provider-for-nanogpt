@@ -962,11 +962,48 @@ class SettingsPage
      */
     private function isSelectableImageModel(array $modelData): bool
     {
-        if (!isset($modelData['capabilities']) || !is_array($modelData['capabilities'])) {
-            return true;
+        $capabilities = $modelData['capabilities'] ?? null;
+        if (
+            is_array($capabilities) &&
+            isset($capabilities['image_generation']) &&
+            empty($capabilities['image_generation'])
+        ) {
+            return false;
         }
 
-        return !isset($modelData['capabilities']['image_generation']) ||
-            !empty($modelData['capabilities']['image_generation']);
+        // NanoGPT marks every image model with image_generation = true, including
+        // edit/upscale/inpaint models that cannot create an image from a text prompt
+        // alone. Those are only distinguishable by their id/name, so filter them out
+        // of the "Image generation model" default choice.
+        return !$this->isEditingOnlyImageModel($modelData);
+    }
+
+    /**
+     * Heuristically detects models that only transform an existing image (edit,
+     * upscale, inpaint, image-to-image, …) rather than generate one from text.
+     *
+     * @since 0.7.4
+     *
+     * @param array<string, mixed> $modelData Raw model data.
+     * @return bool Whether the model is editing-only.
+     */
+    private function isEditingOnlyImageModel(array $modelData): bool
+    {
+        $id = isset($modelData['id']) && is_string($modelData['id']) ? $modelData['id'] : '';
+        $name = isset($modelData['name']) && is_string($modelData['name']) ? $modelData['name'] : '';
+
+        $pattern = '#edit|image-to-image|img2img|image to image|remix|upscal|inpaint|outpaint'
+            . '|\bremove|kontext|redux|relight|restyle|recolor|background-remover|\bvariation#i';
+        $isEditing = (bool) preg_match($pattern, $id . ' ' . $name);
+
+        if (function_exists('apply_filters')) {
+            $isEditing = (bool) apply_filters(
+                'nanogpt_ai_provider_is_editing_only_image_model',
+                $isEditing,
+                $modelData
+            );
+        }
+
+        return $isEditing;
     }
 }
