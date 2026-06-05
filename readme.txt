@@ -1,8 +1,10 @@
 === AI Provider for NanoGPT ===
 Contributors: jiri
+Tags: ai, nanogpt, image-generation, llm, ai-client
 Requires at least: 7.0
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.7.2
+Stable tag: 0.7.3
 License: GPL-2.0-or-later
 License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
 
@@ -19,6 +21,9 @@ Registers NanoGPT as a provider for the WordPress AI Client. Supports text and i
 3. Add your NanoGPT API key in Settings > Connectors.
 
 == Changelog ==
+
+= 0.7.3 =
+* Add Tags and Tested up to headers to the readme for the WordPress.org plugin directory.
 
 = 0.7.2 =
 * Rename the plugin to "AI Provider for NanoGPT" to follow the WordPress.org "X for Y" naming guideline.
