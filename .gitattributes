@@ -1,0 +1,6 @@
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/composer.json export-ignore
+/composer.lock export-ignore
+/phpstan.neon.dist export-ignore
+/tools/ export-ignore

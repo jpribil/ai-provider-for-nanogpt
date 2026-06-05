@@ -2,6 +2,8 @@
 
 WordPress AI Client provider for [nano-gpt.com](https://nano-gpt.com/).
 
+> ⏳ **Status:** submitted to the [WordPress.org plugin directory](https://wordpress.org/plugins/) and awaiting review. **Not yet officially published there.** Until then, install the **[latest release ZIP](https://github.com/jpribil/ai-provider-for-nanogpt/releases)** via *Plugins → Add New → Upload Plugin* (or clone this repo into `wp-content/plugins/`). This note will be replaced with the official WordPress.org listing once it goes live.
+
 > 🧩 **Companion plugin:** pairs with **[AI Image Block (NanoGPT)](https://github.com/jpribil/ai-image-block-for-nanogpt)** — a Gutenberg block that generates images in the editor with model/size selection and a live price estimate, built on top of this provider. The two are designed to be used together: this plugin teaches WordPress how to talk to NanoGPT, the block gives editors a UI for it.
 
 ## Get a NanoGPT account
