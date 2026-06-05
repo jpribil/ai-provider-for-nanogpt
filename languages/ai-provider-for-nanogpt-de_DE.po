@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nano-gpt.com AI (codex) 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-03 00:00+0000\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Text Domain: ai-provider-for-nanogpt\n"
+
+msgid "Text and image generation through NanoGPT."
+msgstr "Text- und Bilderzeugung über NanoGPT."
+
+msgid "nano-gpt.com AI"
+msgstr "nano-gpt.com AI"
+
+msgid "NanoGPT"
+msgstr "NanoGPT"
+
+msgid "Default models"
+msgstr "Standardmodelle"
+
+msgid "Image generation model"
+msgstr "Modell für Bilderzeugung"
+
+msgid "Image size"
+msgstr "Bildgröße"
+
+msgid "Extra image parameters"
+msgstr "Zusätzliche Bildparameter"
+
+msgid "Text generation model"
+msgstr "Modell für Texterzeugung"
+
+msgid "Extra image parameters must be a valid JSON object."
+msgstr "Zusätzliche Bildparameter müssen ein gültiges JSON-Objekt sein."
+
+msgid "These models are used first when a WordPress AI feature asks for text or image generation without selecting a specific model."
+msgstr "Diese Modelle werden zuerst verwendet, wenn eine WordPress-AI-Funktion Text- oder Bilderzeugung anfordert, ohne ein bestimmtes Modell auszuwählen."
+
+msgid "Use provider default"
+msgstr "Standard des Anbieters verwenden"
+
+msgid "Provider default"
+msgstr "Standard des Anbieters"
+
+msgid "Suggested values come from the selected NanoGPT image model. Choose Provider default to let NanoGPT decide."
+msgstr "Die vorgeschlagenen Werte stammen aus dem ausgewählten NanoGPT-Bildmodell. Wählen Sie „Standard des Anbieters“, damit NanoGPT entscheidet."
+
+msgid "Optional JSON object with NanoGPT image parameters. The Image size field writes the size parameter separately and wins over size here."
+msgstr "Optionales JSON-Objekt mit NanoGPT-Bildparametern. Das Feld Bildgröße schreibt den Parameter size separat und hat Vorrang vor size an dieser Stelle."
+
+msgid "Use NanoGPT catalog order"
+msgstr "Reihenfolge des NanoGPT-Katalogs verwenden"
+
+msgid "Model ID"
+msgstr "Modell-ID"
+
+msgid "Could not load NanoGPT model list. Enter a model ID manually, or reload this page later."
+msgstr "Die NanoGPT-Modellliste konnte nicht geladen werden. Geben Sie eine Modell-ID manuell ein oder laden Sie diese Seite später erneut."
+
+msgid "Add your NanoGPT API key in Settings → Connectors to see your account balance."
+msgstr "Geben Sie Ihren NanoGPT-API-Schlüssel unter Einstellungen → Connectors ein, um Ihr Kontoguthaben zu sehen."
+
+msgid "Could not retrieve your NanoGPT account balance right now."
+msgstr "Ihr NanoGPT-Kontoguthaben konnte derzeit nicht abgerufen werden."
+
+msgid "NanoGPT account balance:"
+msgstr "NanoGPT-Kontoguthaben:"
+
+#. translators: %s: account balance in US dollars.
+msgid "%s USD"
+msgstr "%s USD"
+
+#. translators: %s: account balance in NANO.
+msgid "%s NANO"
+msgstr "%s NANO"
+
+msgid "Estimated price:"
+msgstr "Geschätzter Preis:"
+
+msgid "per image"
+msgstr "pro Bild"

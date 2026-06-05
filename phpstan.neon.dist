@@ -1,0 +1,13 @@
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+    level: 5
+    paths:
+        - plugin.php
+        - src
+    excludePaths:
+        - src/polyfill.php
+    bootstrapFiles:
+        - src/polyfill.php
+    treatPhpDocTypesAsCertain: false

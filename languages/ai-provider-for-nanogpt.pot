@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nano-gpt.com AI (codex) 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-03 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Text Domain: ai-provider-for-nanogpt\n"
+
+msgid "Text and image generation through NanoGPT."
+msgstr ""
+
+msgid "nano-gpt.com AI"
+msgstr ""
+
+msgid "NanoGPT"
+msgstr ""
+
+msgid "Default models"
+msgstr ""
+
+msgid "Image generation model"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Extra image parameters"
+msgstr ""
+
+msgid "Text generation model"
+msgstr ""
+
+msgid "Extra image parameters must be a valid JSON object."
+msgstr ""
+
+msgid "These models are used first when a WordPress AI feature asks for text or image generation without selecting a specific model."
+msgstr ""
+
+msgid "Use provider default"
+msgstr ""
+
+msgid "Provider default"
+msgstr ""
+
+msgid "Suggested values come from the selected NanoGPT image model. Choose Provider default to let NanoGPT decide."
+msgstr ""
+
+msgid "Optional JSON object with NanoGPT image parameters. The Image size field writes the size parameter separately and wins over size here."
+msgstr ""
+
+msgid "Use NanoGPT catalog order"
+msgstr ""
+
+msgid "Model ID"
+msgstr ""
+
+msgid "Could not load NanoGPT model list. Enter a model ID manually, or reload this page later."
+msgstr ""
+
+msgid "Add your NanoGPT API key in Settings → Connectors to see your account balance."
+msgstr ""
+
+msgid "Could not retrieve your NanoGPT account balance right now."
+msgstr ""
+
+msgid "NanoGPT account balance:"
+msgstr ""
+
+#. translators: %s: account balance in US dollars.
+msgid "%s USD"
+msgstr ""
+
+#. translators: %s: account balance in NANO.
+msgid "%s NANO"
+msgstr ""
+
+msgid "Estimated price:"
+msgstr ""
+
+msgid "per image"
+msgstr ""

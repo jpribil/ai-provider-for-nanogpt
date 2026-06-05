@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nano-gpt.com AI (codex) 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-03 00:00+0000\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Text Domain: ai-provider-for-nanogpt\n"
+
+msgid "Text and image generation through NanoGPT."
+msgstr "Generování textu a obrázků přes NanoGPT."
+
+msgid "nano-gpt.com AI"
+msgstr "nano-gpt.com AI"
+
+msgid "NanoGPT"
+msgstr "NanoGPT"
+
+msgid "Default models"
+msgstr "Výchozí modely"
+
+msgid "Image generation model"
+msgstr "Model pro generování obrázků"
+
+msgid "Image size"
+msgstr "Velikost obrázku"
+
+msgid "Extra image parameters"
+msgstr "Další parametry obrázku"
+
+msgid "Text generation model"
+msgstr "Model pro generování textu"
+
+msgid "Extra image parameters must be a valid JSON object."
+msgstr "Další parametry obrázku musí být platný objekt JSON."
+
+msgid "These models are used first when a WordPress AI feature asks for text or image generation without selecting a specific model."
+msgstr "Tyto modely se použijí jako první, když funkce AI ve WordPressu požádá o generování textu nebo obrázku bez výběru konkrétního modelu."
+
+msgid "Use provider default"
+msgstr "Použít výchozí nastavení poskytovatele"
+
+msgid "Provider default"
+msgstr "Výchozí nastavení poskytovatele"
+
+msgid "Suggested values come from the selected NanoGPT image model. Choose Provider default to let NanoGPT decide."
+msgstr "Doporučené hodnoty pocházejí z vybraného obrázkového modelu NanoGPT. Pro ponechání na NanoGPT zvolte Výchozí nastavení poskytovatele."
+
+msgid "Optional JSON object with NanoGPT image parameters. The Image size field writes the size parameter separately and wins over size here."
+msgstr "Volitelný objekt JSON s parametry obrázků NanoGPT. Pole Velikost obrázku zapisuje parametr size samostatně a má přednost před hodnotou size zde."
+
+msgid "Use NanoGPT catalog order"
+msgstr "Použít pořadí katalogu NanoGPT"
+
+msgid "Model ID"
+msgstr "ID modelu"
+
+msgid "Could not load NanoGPT model list. Enter a model ID manually, or reload this page later."
+msgstr "Nepodařilo se načíst seznam modelů NanoGPT. Zadejte ID modelu ručně, nebo tuto stránku později znovu načtěte."
+
+msgid "Add your NanoGPT API key in Settings → Connectors to see your account balance."
+msgstr "Pro zobrazení zůstatku na účtu zadejte svůj API klíč NanoGPT v Nastavení → Konektory."
+
+msgid "Could not retrieve your NanoGPT account balance right now."
+msgstr "Zůstatek vašeho účtu NanoGPT se právě teď nepodařilo načíst."
+
+msgid "NanoGPT account balance:"
+msgstr "Zůstatek účtu NanoGPT:"
+
+#. translators: %s: account balance in US dollars.
+msgid "%s USD"
+msgstr "%s USD"
+
+#. translators: %s: account balance in NANO.
+msgid "%s NANO"
+msgstr "%s NANO"
+
+msgid "Estimated price:"
+msgstr "Odhadovaná cena:"
+
+msgid "per image"
+msgstr "za obrázek"
