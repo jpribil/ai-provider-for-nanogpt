@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Plugin Name: nano-gpt.com AI (codex)
+ * Plugin Name: nano-gpt.com AI
  * Plugin URI: https://nano-gpt.com/
  * Description: nano-gpt.com AI provider for the WordPress AI Client.
  * Requires at least: 7.0
  * Requires PHP: 7.4
- * Version: 0.7.0
+ * Version: 0.7.1
  * Author: Jiri
  * License: GPL-2.0-or-later
  * License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
@@ -62,7 +62,7 @@ function get_debug_log_path(): ?string
         return null;
     }
 
-    return rtrim($uploads['basedir'], '/\\') . '/nanogpt-ai-codex/debug.log';
+    return rtrim($uploads['basedir'], '/\\') . '/nanogpt-ai/debug.log';
 }
 
 /**
@@ -216,7 +216,7 @@ function load_textdomain(): void
 add_action('plugins_loaded', __NAMESPACE__ . '\\load_textdomain');
 
 /**
- * Registers nano-gpt.com AI (codex) with the AI Client.
+ * Registers nano-gpt.com AI with the AI Client.
  *
  * @since 0.1.0
  *

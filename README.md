@@ -1,8 +1,14 @@
-# nano-gpt.com AI (codex)
+# nano-gpt.com AI
 
 WordPress AI Client provider for [nano-gpt.com](https://nano-gpt.com/).
 
 > 🧩 **Companion plugin:** pairs with **[AI Image Block (NanoGPT)](https://github.com/jpribil/ai-image-block-for-nanogpt)** — a Gutenberg block that generates images in the editor with model/size selection and a live price estimate, built on top of this provider. The two are designed to be used together: this plugin teaches WordPress how to talk to NanoGPT, the block gives editors a UI for it.
+
+## Get a NanoGPT account
+
+You need a NanoGPT account and API key.
+
+> 💸 **Affiliate link (optional):** signing up via **[nano-gpt.com/r/VLX8bWbQ](https://nano-gpt.com/r/VLX8bWbQ)** supports this plugin's author at no extra cost to you. **This is an affiliate link and is entirely optional** — if you'd rather not use it, the plain link works exactly the same: **[nano-gpt.com](https://nano-gpt.com/)**.
 
 ## Requirements
 
@@ -42,7 +48,7 @@ Model dropdowns are sorted alphabetically and show the selected model descriptio
 When `WP_DEBUG` is enabled, this plugin records fatal PHP errors that originate from its own files to an access-guarded log:
 
 ```text
-wp-content/uploads/nanogpt-ai-codex/debug.log
+wp-content/uploads/nanogpt-ai/debug.log
 ```
 
 The directory is protected with `.htaccess` and `index.html` guards, the log is capped at 1 MB (rotated to `debug.log.1`), and unrelated site-wide errors are never recorded. Leave `WP_DEBUG` off in production to disable logging entirely.
