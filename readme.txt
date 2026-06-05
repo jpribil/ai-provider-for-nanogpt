@@ -1,8 +1,8 @@
-=== nano-gpt.com AI ===
+=== AI Provider for NanoGPT ===
 Contributors: jiri
 Requires at least: 7.0
 Requires PHP: 7.4
-Stable tag: 0.7.1
+Stable tag: 0.7.2
 License: GPL-2.0-or-later
 License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
 
@@ -10,7 +10,7 @@ nano-gpt.com AI provider for the WordPress AI Client.
 
 == Description ==
 
-Registers nano-gpt.com AI as a provider for the WordPress AI Client. Supports text and image generation using NanoGPT's OpenAI-compatible API endpoints.
+Registers NanoGPT as a provider for the WordPress AI Client. Supports text and image generation using NanoGPT's OpenAI-compatible API endpoints.
 
 == Installation ==
 
@@ -19,6 +19,9 @@ Registers nano-gpt.com AI as a provider for the WordPress AI Client. Supports te
 3. Add your NanoGPT API key in Settings > Connectors.
 
 == Changelog ==
+
+= 0.7.2 =
+* Rename the plugin to "AI Provider for NanoGPT" to follow the WordPress.org "X for Y" naming guideline.
 
 = 0.7.1 =
 * Rename the plugin from "nano-gpt.com AI (codex)" to "nano-gpt.com AI" and move the debug log to uploads/nanogpt-ai/.

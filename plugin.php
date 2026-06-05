@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Plugin Name: nano-gpt.com AI
+ * Plugin Name: AI Provider for NanoGPT
  * Plugin URI: https://nano-gpt.com/
  * Description: nano-gpt.com AI provider for the WordPress AI Client.
  * Requires at least: 7.0
  * Requires PHP: 7.4
- * Version: 0.7.1
+ * Version: 0.7.2
  * Author: Jiri
  * License: GPL-2.0-or-later
  * License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
@@ -216,7 +216,7 @@ function load_textdomain(): void
 add_action('plugins_loaded', __NAMESPACE__ . '\\load_textdomain');
 
 /**
- * Registers nano-gpt.com AI with the AI Client.
+ * Registers AI Provider for NanoGPT with the AI Client.
  *
  * @since 0.1.0
  *

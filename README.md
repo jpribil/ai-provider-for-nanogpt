@@ -1,4 +1,4 @@
-# nano-gpt.com AI
+# AI Provider for NanoGPT
 
 WordPress AI Client provider for [nano-gpt.com](https://nano-gpt.com/).
 
